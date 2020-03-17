@@ -1,0 +1,27 @@
+{
+  "name": "studybuddy",
+  "version": "1.0.0",
+  "description": "Use this site to find a study buddy!",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennykim11/study-buddy.git"
+  },
+  "author": "Kenny Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennykim11/study-buddy/issues"
+  },
+  "homepage": "https://github.com/kennykim11/study-buddy#readme",
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-google-login": "^5.1.1"
+  }
+}

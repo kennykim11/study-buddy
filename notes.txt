@@ -1,0 +1,12 @@
+Main Page:
+
+Profile Page:
+    Initially fills with Google Data
+    Name, email, phone number, picture, "best way to contact me"
+    Maybe calendar?
+
+Connfirmation page:
+    Shows bio about other person
+
+Class:
+    Class, section, professor, what specifically you're have trouble with
