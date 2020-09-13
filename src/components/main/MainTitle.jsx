@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import UserContext from '../context/UserContext'
+import './MainTitle.scss'
 
-export default({isLoggedIn}) => {
-    var innerText = isLoggedIn ? "I'm looking for a buddy in: " : "I'm looking for a buddy!"
-    return <div style={{textAlign: "center", fontFamily: "Roboto", fontSize: "50"}}>
-        {innerText}
+export default() => {
+    const user = useContext(UserContext)
+    return <div id='MainTitle'>
+        {user ? "I'm looking for a buddy in: " : "I'm looking for a buddy!"}
     </div>
 }

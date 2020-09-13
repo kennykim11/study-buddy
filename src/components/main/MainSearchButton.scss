@@ -1,0 +1,20 @@
+#MainSearchButton{
+    margin-top: 70px;
+    padding: 10px;
+    background-color: white;
+    border: {
+        radius: 10px;
+        width: 2px;
+        color: orange;
+        style: solid;
+    }
+    font: {
+        size: 20;
+        family: Roboto;
+    }
+    opacity: 50%;
+    &.notReady{
+        opacity: 20%;
+    }
+}
+
